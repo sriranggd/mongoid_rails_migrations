@@ -2,18 +2,18 @@ require File.join(File.dirname(__FILE__), 'lib', 'mongoid_rails_migrations', 've
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'mongoid_rails_migrations'
+  s.name        = 'mongoid_rails_5_migrations'
   s.version     = MongoidRailsMigrations::VERSION
-  s.summary     = 'Data migrations for Mongoid in Active Record style, minus column input.'
+  s.summary     = 'TEMPORARY RAILS 5 SPECIFIC GEM. Data migrations for Mongoid in Active Record style, minus column input.'
   s.license     = 'MIT'
-  s.description = 'Migrations for the migrator.'
+  s.description = 'TEMPORARY RAILS 5 SPECIFIC GEM. Migrations for the migrator.'
 
   s.required_ruby_version     = '>= 1.8.6'
   s.required_rubygems_version = '>= 1.3.6'
 
   s.author            = 'Alan Da Costa'
   s.email             = 'alandacosta@gmail.com'
-  s.date              = %q{2015-01-01}
+  s.date              = %q{2018-05-30}
   s.homepage          = 'http://github.com/adacosta/mongoid_rails_migrations'
 
   s.require_paths = ['lib']
