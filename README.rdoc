@@ -1,3 +1,12 @@
+== TEMPORARY RAILS 5 SPECIFIC REPO
+The main repo is this : https://github.com/adacosta/mongoid_rails_migrations
+
+I needed the latest code in that repo as a gem on https://rubygems.org/ but the author had not been able to update the gem. So I forked the repo and created a duplicate gem on Rubygems here : http://rubygems.org/gems/mongoid_rails_5_migrations
+
+This repo and the duplicate gem will be taken down when the actual gem is updated on Rubygems.
+
+This repo has absolutely no code changes compared to the parent repo from which this is forked.
+
 == RELEASE NOTES
 * The most current release, 1.1.x, targets Mongoid >= 4.0.0 and Rails >= 4.2.0 .
 * For Rails >= 3.2.0 and Mongoid >= 3.0.0, use version 1.0.0 .
